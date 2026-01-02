@@ -46,8 +46,9 @@ public:
         }
     }
 
-    // Print adjacency list
     void print() const {
+        // const ensures that this function does not modify
+        // any data members of the Graph object
         if (adj.empty()) {
             cout << "Graph is empty\n";
             return;
