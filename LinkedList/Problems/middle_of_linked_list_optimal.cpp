@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
-// Time Complexity: O(n)
+
+// Finds middle of linked list using slow-fast pointer technique
+// Time: O(n), Space: O(1)
 
 class Node {
 public:
