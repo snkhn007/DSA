@@ -28,7 +28,7 @@ void insertAtEnd(Node* &head, int data){
     while(temp->next != nullptr) temp = temp->next;
     temp->next = newNode;   
 }
-void display(Node *head){
+void display(const Node *head){
     while(head!=nullptr){
         cout<<head->data<<" ";
         head = head->next;
@@ -36,6 +36,7 @@ void display(Node *head){
     cout<<endl;
 }
 // Free all allocated memory
+// pass by reference
 void deleteList(Node*& head) {
     while (head != nullptr) {
         Node* temp = head;

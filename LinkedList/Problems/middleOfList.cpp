@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+// O(n) + O(n) = O(2n)
+// Time Complexity: O(n)
 
 class Node {
 public:
@@ -11,6 +13,27 @@ public:
         this->next = nullptr;
     }
 };
+
+// O(n)->
+int count(Node* head){
+    int count = 0;
+    while(head != nullptr){
+        count++;
+        head = head -> next;
+    }
+    return count;
+}
+// O(n)->
+Node* middleElement(Node* head){
+    if(head == nullptr) return nullptr;
+    int ind = 1;
+    int pos = (count(head)/2)+1;
+    while(ind < pos){
+        head = head->next;
+        ind++;
+    }
+    return head;
+}
 
 void insertAtStart(Node*& head, int data) {
     Node* newNode = new Node(data);
@@ -33,24 +56,6 @@ void freeSpace(Node*& head) {
         delete temp;
     }
 }
-int count(Node* head){
-    int count = 0;
-    while(head != nullptr){
-        count++;
-        head = head -> next;
-    }
-    return count;
-}
-Node* middleElement(Node* head){
-    if(head == nullptr) return nullptr;
-    int ind = 1;
-    int pos = (count(head)/2)+1;
-    while(ind < pos){
-        head = head->next;
-        ind++;
-    }
-    return head;
-}
 int main() {
     Node* head = nullptr;
 
@@ -60,7 +65,10 @@ int main() {
     insertAtStart(head, 3);
     insertAtStart(head, 2);
     insertAtStart(head, 1);
-    insertAtStart(head, 10);
+
+    // // For even 
+    // // 10,1,2,3,4,5
+    // insertAtStart(head, 10);
 
     display(head);
     Node* midRes = middleElement(head);
