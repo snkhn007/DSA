@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// Time: O(n)
+// Space: O(1)
+
 class Node{
 public:
     Node (int data){
@@ -10,35 +13,20 @@ public:
     int data;
     Node* next;
 };
-// Creates a loop: tail -> node with given value
-void createLoop(Node* head, int value){
-    if(head == nullptr) return;
-
-    Node* loopNode = nullptr;
-    Node* temp = head;
-
-    // Find the node where loop should start
-    while(temp != nullptr){
-        if(temp->data == value){
-            loopNode = temp;
-        }
-        if(temp->next == nullptr) break; // temp becomes last node
-        // Break when temp reaches the last node (temp->next == nullptr).
-        // We still need to check the last node’s value before stopping,
-        // and we must keep temp pointing to the last node to link it later.
-        // This is NOT put in the while condition (e.g., while(temp->next != nullptr))
-        // because that would skip checking the last node’s data.
-
-        temp = temp->next;
+bool detectLoop(Node* head){
+    if(head == nullptr || head->next == nullptr){
+        return false;
     }
+    Node * slow = head;
+    Node * fast = head;
 
-    // Connect last node to loopNode
-    if(loopNode != nullptr){
-        temp->next = loopNode;
-        cout << "Loop created at node with value: " << value << endl;
-    } else {
-        cout << "Value not found. Loop not created." << endl;
+    while(fast!=nullptr && fast->next!=nullptr){
+        slow = slow->next;
+        fast = fast->next->next;
+        if(slow == fast) return true;
     }
+    return false;
+
 }
 
 void insertAtFront(Node* &head, int data){
@@ -62,6 +50,25 @@ void insertAtEnd(Node* &head, int data){
     temp->next = newNode;   
 }
 
+void createLoop(Node* head, int value){
+    if(head == nullptr) return;
+
+    Node* loopNode = nullptr;
+    Node* temp = head;
+    while(temp != nullptr){
+        if(temp->data == value){
+            loopNode = temp;
+        }
+        if(temp->next == nullptr) break;
+        temp = temp->next;
+    }
+    if(loopNode != nullptr){
+        temp->next = loopNode;
+        cout << "Loop created at node with value: " << value << endl;
+    } else {
+        cout << "Value not found. Loop not created." << endl;
+    }
+}
 
 // Normal display (DO NOT use if loop exists)
 void display(const Node *head){
@@ -96,7 +103,11 @@ int main(){
     // Create a loop: last node (13) -> node with value 9
     createLoop(head, 9);
 
-    //Do NOT call display(head) now — infinite loop!
+    bool res = detectLoop(head);
+    if(res) cout<<"Loop Detected"<<endl;
+    else cout<<"No Loop Detected";
+
+    // ⚠️ Do NOT call display(head) now — infinite loop!
 
     return 0;
 }
