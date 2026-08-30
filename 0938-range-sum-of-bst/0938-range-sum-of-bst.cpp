@@ -13,9 +13,14 @@ class Solution {
 public:
     void sumFunc(TreeNode* root, int low, int high, int&sum){
         if(root == nullptr) return;
-        if(root->val >= low && root->val <=high) sum +=root->val;
-        sumFunc(root->left, low, high, sum);
-        sumFunc(root->right, low, high, sum);
+        // if(root->val >= low && root->val <=high)
+        if(root->val < low) sumFunc(root->right, low, high, sum);
+        else if(root->val > high) sumFunc(root->left, low, high, sum);
+        else{
+            sum +=root->val;
+            sumFunc(root->right, low, high, sum);
+            sumFunc(root->left, low, high, sum);
+        }
     }
     int rangeSumBST(TreeNode* root, int low, int high) {
         int res = 0;
