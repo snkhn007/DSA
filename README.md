@@ -33,4 +33,12 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3875-construct-uniform-parity-array-i](https://github.com/snkhn007/DSA/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3875-construct-uniform-parity-array-i](https://github.com/snkhn007/DSA/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 <!---LeetCode Topics End-->
