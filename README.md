@@ -19,6 +19,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0938-range-sum-of-bst](https://github.com/snkhn007/DSA/tree/main/0938-range-sum-of-bst/) | Easy |
+| [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -33,6 +34,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -74,4 +76,9 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/snkhn007/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 <!---LeetCode Topics End-->
