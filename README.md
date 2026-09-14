@@ -52,6 +52,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/snkhn007/DSA/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -107,4 +108,8 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
 <!---LeetCode Topics End-->
