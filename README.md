@@ -45,6 +45,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/snkhn007/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
@@ -62,6 +63,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/snkhn007/DSA/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0058-length-of-last-word](https://github.com/snkhn007/DSA/tree/main/0058-length-of-last-word/) | Easy |
 ## String Matching
 | Problem Name | Difficulty |
@@ -82,6 +84,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/snkhn007/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 ## Union-Find
@@ -112,4 +115,8 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 <!---LeetCode Topics End-->
