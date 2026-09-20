@@ -1,6 +1,7 @@
 class Solution {
 public:
-    void bfs(int node, vector<bool>& vis, vector<vector<int>> & mat, queue<int> & q){
+    void bfs(int node, vector<bool>& vis, vector<vector<int>> & mat){
+        queue<int> q;
         vis[node] = true;
         q.push(node);
         while(!q.empty()){
@@ -18,12 +19,10 @@ public:
         int n = isConnected.size();
         vector<bool> vis(n, false);
 
-        queue<int> q;
-
         int cnt = 0;
         for(int i=0; i<n; i++){
             if(!vis[i]){
-                bfs(i, vis, isConnected, q);
+                bfs(i, vis, isConnected);
                 cnt++;
             }
         }
