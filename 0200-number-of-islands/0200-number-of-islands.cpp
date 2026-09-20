@@ -1,25 +1,33 @@
 class Solution {
 public:
-    void dfs(int row, int col, int rows, int cols, vector<vector<char>>& grid, vector<vector<bool>>& vis){
-        vis[row][col] = true;
-        if(row - 1 >= 0 && !vis[row-1][col] && grid[row-1][col]== '1') dfs(row-1, col,rows, cols, grid, vis);
-        if(row + 1 < rows && !vis[row+1][col] && grid[row+1][col] == '1') dfs(row+1, col, rows, cols, grid, vis);
-        if(col + 1 < cols && !vis[row][col+1] && grid[row][col +1] == '1') dfs(row, col+1, rows, cols, grid, vis);
-        if(col - 1 >= 0 && !vis[row][col-1] && grid[row][col -1]== '1') dfs(row, col-1,rows, cols, grid, vis);
+    void dfs(int i, int j, vector<vector<char>>& grid, vector<vector<bool>>& vis){
+        vis[i][j] = true;
+        int n = grid.size();
+        int m = grid[0].size();
+
+        if(i+1 < n && !vis[i+1][j] && grid[i+1][j] == '1'){
+            dfs(i+1, j, grid, vis);
+        }
+        if(i-1 >= 0 && !vis[i-1][j] && grid[i-1][j] == '1'){
+            dfs(i-1, j, grid, vis);
+        }
+        if(j-1 >= 0 && !vis[i][j-1] && grid[i][j-1] == '1'){
+            dfs(i, j-1, grid, vis);
+        }
+        if(j+1 < m && !vis[i][j+1] && grid[i][j+1] == '1'){
+            dfs(i, j+1, grid, vis);
+        }  
     }
     int numIslands(vector<vector<char>>& grid) {
+        int n = grid.size();
+        int m = grid[0].size();
+
+        vector<vector<bool>> vis(n, vector<bool>(m, false));
         int cnt = 0;
-        int rows = grid.size();
-        int cols = grid[0].size();
-        // vector<bool> vis(n, false);
-
-        vector<vector<bool>> vis(rows, vector<bool>(cols, false));
-        
-        for(int i=0; i<rows ; i++){
-            for(int j=0; j<cols; j++){
-
-                if(!vis[i][j] && grid[i][j] == '1'){
-                    dfs(i, j,rows, cols, grid, vis);
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == '1' && !vis[i][j]){
+                    dfs(i, j, grid , vis);
                     cnt++;
                 }
             }
