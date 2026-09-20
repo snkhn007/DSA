@@ -15,6 +15,7 @@ public:
         if(j-1 >=  0  &&  !vis[i][j-1]  &&  image[i][j-1] == currColor) dfs(i, j-1, vis, image, color);
     }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        if(image[sr][sc] == color) return image;
         int n = image.size();
         int m = image[0].size();
         vector<vector<bool>> vis(n, vector<bool>(m, false));
