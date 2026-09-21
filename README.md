@@ -43,6 +43,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Array
 | Problem Name | Difficulty |
@@ -51,6 +52,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0128-longest-consecutive-sequence](https://github.com/snkhn007/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/snkhn007/DSA/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Math
@@ -116,6 +118,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
+| [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
