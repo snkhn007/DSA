@@ -58,6 +58,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0852-peak-index-in-a-mountain-array](https://github.com/snkhn007/DSA/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [2210-count-hills-and-valleys-in-an-array](https://github.com/snkhn007/DSA/tree/main/2210-count-hills-and-valleys-in-an-array/) | Easy |
+| [2951-find-the-peaks](https://github.com/snkhn007/DSA/tree/main/2951-find-the-peaks/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/snkhn007/DSA/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Math
@@ -117,6 +118,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2951-find-the-peaks](https://github.com/snkhn007/DSA/tree/main/2951-find-the-peaks/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
