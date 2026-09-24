@@ -1,25 +1,46 @@
 class Solution {
 public:
-    void dfs(int i, int j, vector<vector<bool>> & vis, vector<vector<int>>& image, int color){
-        vis[i][j] = true;
-        int currColor = image[i][j];
-
-        image[i][j] = color;
-
-        int n = image.size();
-        int m = image[0].size();
-
-        if(i+1 < n  &&  !vis[i+1][j]  &&  image[i+1][j] == currColor) dfs(i+1, j, vis, image, color);
-        if(i-1 >=  0  &&  !vis[i-1][j]  &&  image[i-1][j] == currColor) dfs(i-1, j, vis, image, color);
-        if(j+1 < m  &&  !vis[i][j+1]  &&  image[i][j+1] == currColor) dfs(i, j+1, vis, image, color);
-        if(j-1 >=  0  &&  !vis[i][j-1]  &&  image[i][j-1] == currColor) dfs(i, j-1, vis, image, color);
-    }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        if(image[sr][sc] == color) return image;
         int n = image.size();
         int m = image[0].size();
-        vector<vector<bool>> vis(n, vector<bool>(m, false));
-        dfs(sr , sc, vis, image, color);
+        vector<vector<bool>> vis(n, vector<bool> (m, false));
+        queue <pair<int, int>> q;
+
+        q.push({sr, sc});
+        vis[sr][sc] = true;
+        int currPixel = image[sr][sc];
+
+        while(!q.empty()){
+            auto curr = q.front();
+            q.pop();
+            int i = curr.first;
+            int j = curr.second;
+
+            image[i][j] = color;
+            if(i+1<n && !vis[i+1][j] &&image[i+1][j]==currPixel){
+                image[i+1][j] = color;
+                vis[i+1][j] = true;
+                q.push({i+1, j});
+            }
+
+            if(i-1>=0 && !vis[i-1][j] &&image[i-1][j]==currPixel){
+                image[i-1][j] = color;
+                vis[i-1][j] = true;
+                q.push({i-1, j});
+            }
+
+            if(j+1<m && !vis[i][j+1] &&image[i][j+1]==currPixel){
+                image[i][j+1] = color;
+                vis[i][j+1] = true;
+                q.push({i, j+1});
+            }
+
+            if(j-1>=0 && !vis[i][j-1] &&image[i][j-1]==currPixel){
+                image[i][j-1] = color;
+                vis[i][j-1] = true;
+                q.push({i, j-1});
+            }
+        }
         return image;
     }
 };
