@@ -63,6 +63,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2210-count-hills-and-valleys-in-an-array](https://github.com/snkhn007/DSA/tree/main/2210-count-hills-and-valleys-in-an-array/) | Easy |
+| [2239-find-closest-number-to-zero](https://github.com/snkhn007/DSA/tree/main/2239-find-closest-number-to-zero/) | Easy |
 | [2951-find-the-peaks](https://github.com/snkhn007/DSA/tree/main/2951-find-the-peaks/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/snkhn007/DSA/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
