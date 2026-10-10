@@ -1,32 +1,26 @@
 class Solution {
 public:
-    void bfs(int node, vector<bool>& vis, vector<vector<int>> & mat){
-        queue<int> q;
+    void dfs(vector<vector<int>>& isConnected, vector<bool>& vis, int node){
         vis[node] = true;
-        q.push(node);
-        while(!q.empty()){
-            int curr = q.front();
-            q.pop();
-            for(int i=0; i<mat[curr].size(); i++){
-                if(mat[curr][i] && !vis[i]){
-                    q.push(i);
-                    vis[i] = true;
-                }
+        for(int i=0; i<isConnected.size(); i++){
+            if(isConnected[node][i] &&  !vis[i]){
+                // ie edge between node and i exists 
+                dfs(isConnected, vis, i);
             }
         }
+
     }
     int findCircleNum(vector<vector<int>>& isConnected) {
         int n = isConnected.size();
+        // vector<vector<bool>> vis(n , vector<bool>(n, false));
         vector<bool> vis(n, false);
-
         int cnt = 0;
         for(int i=0; i<n; i++){
             if(!vis[i]){
-                bfs(i, vis, isConnected);
+                dfs(isConnected, vis, i);
                 cnt++;
             }
         }
-
         return cnt;
     }
 };
