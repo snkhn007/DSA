@@ -24,6 +24,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0938-range-sum-of-bst](https://github.com/snkhn007/DSA/tree/main/0938-range-sum-of-bst/) | Easy |
+| [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/snkhn007/DSA/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 ## Binary Search Tree
@@ -52,6 +53,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
+| [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Array
 | Problem Name | Difficulty |
@@ -67,6 +69,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0852-peak-index-in-a-mountain-array](https://github.com/snkhn007/DSA/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/snkhn007/DSA/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
+| [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2210-count-hills-and-valleys-in-an-array](https://github.com/snkhn007/DSA/tree/main/2210-count-hills-and-valleys-in-an-array/) | Easy |
 | [2239-find-closest-number-to-zero](https://github.com/snkhn007/DSA/tree/main/2239-find-closest-number-to-zero/) | Easy |
@@ -133,6 +136,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
+| [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -159,6 +163,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
+| [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Geometry
 | Problem Name | Difficulty |
