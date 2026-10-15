@@ -77,6 +77,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [2210-count-hills-and-valleys-in-an-array](https://github.com/snkhn007/DSA/tree/main/2210-count-hills-and-valleys-in-an-array/) | Easy |
 | [2239-find-closest-number-to-zero](https://github.com/snkhn007/DSA/tree/main/2239-find-closest-number-to-zero/) | Easy |
 | [2778-sum-of-squares-of-special-elements](https://github.com/snkhn007/DSA/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2951-find-the-peaks](https://github.com/snkhn007/DSA/tree/main/2951-find-the-peaks/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/snkhn007/DSA/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -131,6 +132,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
 | [0771-jewels-and-stones](https://github.com/snkhn007/DSA/tree/main/0771-jewels-and-stones/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -199,4 +201,12 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0278-first-bad-version](https://github.com/snkhn007/DSA/tree/main/0278-first-bad-version/) | Easy |
+## Binary Indexed Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
+## Segment Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 <!---LeetCode Topics End-->
