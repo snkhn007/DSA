@@ -17,7 +17,8 @@ public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
         for(auto i: prerequisites){
-            adj[i[0]].push_back(i[1]);
+            // adj[i[0]].push_back(i[1]);
+            adj[i[1]].push_back(i[0]);
         }
         vector<bool> vis(numCourses, false);
         vector<int> path(numCourses, 0);
