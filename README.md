@@ -23,6 +23,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0938-range-sum-of-bst](https://github.com/snkhn007/DSA/tree/main/0938-range-sum-of-bst/) | Easy |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -53,6 +54,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -141,6 +143,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
+| [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
@@ -148,6 +151,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
+| [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [1791-find-center-of-star-graph](https://github.com/snkhn007/DSA/tree/main/1791-find-center-of-star-graph/) | Easy |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
@@ -209,4 +213,12 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
+## Graph Coloring
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
+## Bipartite Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 <!---LeetCode Topics End-->
