@@ -25,6 +25,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
 | [0938-range-sum-of-bst](https://github.com/snkhn007/DSA/tree/main/0938-range-sum-of-bst/) | Easy |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
@@ -59,6 +60,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
@@ -162,6 +164,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
 | [1791-find-center-of-star-graph](https://github.com/snkhn007/DSA/tree/main/1791-find-center-of-star-graph/) | Easy |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
@@ -243,8 +246,13 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
+| [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/snkhn007/DSA/tree/main/0014-longest-common-prefix/) | Easy |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 <!---LeetCode Topics End-->
