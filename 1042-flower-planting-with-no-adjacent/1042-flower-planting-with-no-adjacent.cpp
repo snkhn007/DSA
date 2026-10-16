@@ -14,11 +14,17 @@ public:
                     // find all the colors which are already occupied by neigbours
                     // taken.push_back(color[i]);
                     taken[color[i]] = 1;
+                    // q.push(i);
+                }else{
+                    q.push(i);
                 }
             }
             // /choose colro for currNode not its neighbours
             for(int i=1; i<5; i++){ 
-                if(taken[i] == 0) color[currNode] = i;
+                if(taken[i] == 0){
+                    color[currNode] = i; 
+                    break;
+                }
             }
         }
     }
