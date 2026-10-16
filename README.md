@@ -29,6 +29,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
 | [0938-range-sum-of-bst](https://github.com/snkhn007/DSA/tree/main/0938-range-sum-of-bst/) | Easy |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
+| [1042-flower-planting-with-no-adjacent](https://github.com/snkhn007/DSA/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/snkhn007/DSA/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
@@ -64,6 +65,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
+| [1042-flower-planting-with-no-adjacent](https://github.com/snkhn007/DSA/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 ## Array
@@ -167,6 +169,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
+| [1042-flower-planting-with-no-adjacent](https://github.com/snkhn007/DSA/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1791-find-center-of-star-graph](https://github.com/snkhn007/DSA/tree/main/1791-find-center-of-star-graph/) | Easy |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
@@ -235,6 +238,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
+| [1042-flower-planting-with-no-adjacent](https://github.com/snkhn007/DSA/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 ## Bipartite Graph
 | Problem Name | Difficulty |
 | ------- | ------- |
