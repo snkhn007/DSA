@@ -32,7 +32,7 @@ public:
         // vector<bool> vis(n, false);
         vector<int> vis(n+1, -1);
 
-        for(int i=0; i<=n; i++){
+        for(int i=1; i<=n; i++){
             if(vis[i] == -1){
                 bool res =  bfs(adj, vis, i);
                 if(!res) return false;
