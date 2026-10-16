@@ -3,7 +3,7 @@ public:
     bool bfs(vector<vector<int>>& adj, vector<int>&vis, int node){
         queue<int> q;
         q.push(node);
-        vis[node] = true;
+        vis[node] = 1;
 
         while(!q.empty()){
             int currNode = q.front();
