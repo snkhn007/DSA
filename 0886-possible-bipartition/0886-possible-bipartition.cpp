@@ -14,7 +14,7 @@ public:
                     if(vis[currNode] == 1) vis[i] = 0;
                     else vis[i] = 1;
                     q.push(i);
-                }if(vis[i] == vis[currNode]){
+                }else if(vis[i] == vis[currNode]){
                     // ie it already has a color similar to color of parent 
                     return false;
                 }
@@ -32,7 +32,7 @@ public:
         // vector<bool> vis(n, false);
         vector<int> vis(n+1, -1);
 
-        for(int i=0; i<n; i++){
+        for(int i=0; i<=n; i++){
             if(vis[i] == -1){
                 bool res =  bfs(adj, vis, i);
                 if(!res) return false;
