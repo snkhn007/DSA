@@ -23,6 +23,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
+| [0695-max-area-of-island](https://github.com/snkhn007/DSA/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
@@ -60,6 +61,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
+| [0695-max-area-of-island](https://github.com/snkhn007/DSA/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
@@ -83,6 +85,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
+| [0695-max-area-of-island](https://github.com/snkhn007/DSA/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0852-peak-index-in-a-mountain-array](https://github.com/snkhn007/DSA/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/snkhn007/DSA/tree/main/0977-squares-of-a-sorted-array/) | Easy |
@@ -168,6 +171,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
+| [0695-max-area-of-island](https://github.com/snkhn007/DSA/tree/main/0695-max-area-of-island/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
@@ -204,6 +208,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
+| [0695-max-area-of-island](https://github.com/snkhn007/DSA/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
