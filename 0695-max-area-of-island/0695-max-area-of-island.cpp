@@ -12,6 +12,7 @@ public:
 
     }
     int maxAreaOfIsland(vector<vector<int>>& grid) {
+        // does not ask you to eliminate islands touching the boundary**
         int n = grid.size(), m = grid[0].size(), res = 0;
         vector<vector<bool>> vis(n, vector<bool>(m, false));
 
