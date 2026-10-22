@@ -2,17 +2,18 @@ class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
-        for(auto i: prerequisites){
-            // adj[i[0]].push_back(i[1]);
-            adj[i[1]].push_back(i[0]);
-        }
         vector<int> ind(numCourses);
-
-        for(int i=0; i<numCourses; i++){
-            for(auto x: adj[i]){
-                ind[x]++;
-            }
+        for(auto i: prerequisites){
+            adj[i[0]].push_back(i[1]);
+            // adj[i[1]].push_back(i[0]);
+            ind[i[1]]++;
         }
+
+        // for(int i=0; i<numCourses; i++){
+        //     for(auto x: adj[i]){
+        //         ind[x]++;
+        //     }
+        // }
 
         queue<int>q;
         for(int i = 0; i<numCourses; i++){
@@ -29,6 +30,6 @@ public:
             }
         }
 
-        return cnt == adj.size();
+        return cnt == numCourses;
     }
 };
