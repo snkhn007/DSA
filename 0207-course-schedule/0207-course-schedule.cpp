@@ -1,18 +1,14 @@
 class Solution {
 public:
-    bool dfs(vector<vector<int>>& adj, vector<bool> & vis, vector<int>&path, int node, int parent){
-        vis[node] = true;
-        path[node] = 1;
+    bool dfs(vector<vector<int>>& adj, vector<int> & vis, int node, stack<int>& st){
+        vis[node] = 1;
         for(auto i : adj[node]){
-            if(!vis[i]){
-                bool res = dfs(adj, vis, path, i, node);
-                if(res) return true;//cycle exixts
-            }
-            else if(path[i] == 1) return true;
-            // else if(vis[i] && i != parent && path[i] == 1) return true;
+            if(vis[i] == 0) if(!dfs(adj, vis, i, st)) return false;
+            if(vis[i] == 1) return false;
         }
-        path[node] = 0;
-        return false;
+        vis[node] = 2;
+        st.push(node);
+        return true;
     }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
@@ -20,14 +16,10 @@ public:
             // adj[i[0]].push_back(i[1]);
             adj[i[1]].push_back(i[0]);
         }
-        vector<bool> vis(numCourses, false);
-        vector<int> path(numCourses, 0);
-
+        vector<int> vis(numCourses, 0);
+        stack<int> st;
         for(int i=0; i<numCourses; i++){
-            if(!vis[i]){
-                bool res = dfs(adj, vis, path, i, -1);
-                if(res) return false;// cycle exists ie it is not possible 
-            }
+            if(!vis[i])  if(!dfs(adj, vis, i, st)) return false;
         }
         return true;
     }
