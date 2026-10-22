@@ -139,6 +139,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0771-jewels-and-stones](https://github.com/snkhn007/DSA/tree/main/0771-jewels-and-stones/) | Easy |
 | [1408-string-matching-in-an-array](https://github.com/snkhn007/DSA/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/snkhn007/DSA/tree/main/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/snkhn007/DSA/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2185-counting-words-with-a-given-prefix](https://github.com/snkhn007/DSA/tree/main/2185-counting-words-with-a-given-prefix/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/snkhn007/DSA/tree/main/3498-reverse-degree-of-a-string/) | Easy |
@@ -307,4 +308,12 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/snkhn007/DSA/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/snkhn007/DSA/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/snkhn007/DSA/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 <!---LeetCode Topics End-->
