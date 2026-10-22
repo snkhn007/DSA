@@ -21,6 +21,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/snkhn007/DSA/tree/main/0210-course-schedule-ii/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/snkhn007/DSA/tree/main/0695-max-area-of-island/) | Medium |
@@ -58,6 +59,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/snkhn007/DSA/tree/main/0210-course-schedule-ii/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
@@ -181,6 +183,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/snkhn007/DSA/tree/main/0210-course-schedule-ii/) | Medium |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
@@ -267,6 +270,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/snkhn007/DSA/tree/main/0210-course-schedule-ii/) | Medium |
 ## Directed Acyclic Graph
 | Problem Name | Difficulty |
 | ------- | ------- |
