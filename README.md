@@ -37,6 +37,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1042-flower-planting-with-no-adjacent](https://github.com/snkhn007/DSA/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
+| [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/snkhn007/DSA/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Binary Search Tree
@@ -79,6 +80,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1042-flower-planting-with-no-adjacent](https://github.com/snkhn007/DSA/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
+| [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Array
 | Problem Name | Difficulty |
@@ -103,6 +105,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1408-string-matching-in-an-array](https://github.com/snkhn007/DSA/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
+| [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/snkhn007/DSA/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2185-counting-words-with-a-given-prefix](https://github.com/snkhn007/DSA/tree/main/2185-counting-words-with-a-given-prefix/) | Easy |
 | [2210-count-hills-and-valleys-in-an-array](https://github.com/snkhn007/DSA/tree/main/2210-count-hills-and-valleys-in-an-array/) | Easy |
@@ -229,6 +232,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Geometry
