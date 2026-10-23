@@ -142,6 +142,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0058-length-of-last-word](https://github.com/snkhn007/DSA/tree/main/0058-length-of-last-word/) | Easy |
 | [0290-word-pattern](https://github.com/snkhn007/DSA/tree/main/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
+| [0657-robot-return-to-origin](https://github.com/snkhn007/DSA/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0771-jewels-and-stones](https://github.com/snkhn007/DSA/tree/main/0771-jewels-and-stones/) | Easy |
 | [1408-string-matching-in-an-array](https://github.com/snkhn007/DSA/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/snkhn007/DSA/tree/main/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy |
@@ -248,6 +249,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0657-robot-return-to-origin](https://github.com/snkhn007/DSA/tree/main/0657-robot-return-to-origin/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/snkhn007/DSA/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## Ternary Search
 | Problem Name | Difficulty |
