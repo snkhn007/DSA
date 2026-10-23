@@ -1,26 +1,23 @@
 class Solution {
 public:
-    void dfs(vector<vector<int>>& isConnected, vector<bool>& vis, int node){
+    void dfs(vector<vector<int>> & grid, int node, vector<bool> & vis){
         vis[node] = true;
-        for(int i=0; i<isConnected.size(); i++){
-            if(isConnected[node][i] &&  !vis[i]){
-                // ie edge between node and i exists 
-                dfs(isConnected, vis, i);
+        for(int i=0; i<grid[0].size(); i++){
+            if(grid[node][i] == 1 && !vis[i]){
+                // edges between node <-> i
+                dfs(grid, i, vis);                
             }
-        }
-
+        }           
     }
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        int n = isConnected.size();
-        // vector<vector<bool>> vis(n , vector<bool>(n, false));
+    int findCircleNum(vector<vector<int>>& grid) {
+        int n = grid.size(), m = grid[0].size(), res = 0;
         vector<bool> vis(n, false);
-        int cnt = 0;
         for(int i=0; i<n; i++){
             if(!vis[i]){
-                dfs(isConnected, vis, i);
-                cnt++;
+                dfs(grid, i, vis);
+                res++;
             }
         }
-        return cnt;
+        return res;
     }
 };
