@@ -1,30 +1,32 @@
 class Solution {
 public:
-    bool dfs(vector<vector<int>>& graph, vector<bool>& vis, vector<int>& path, int node, vector<int>& res){
-        vis[node] = true;
-        path[node] = 1;
-        for(auto i : graph[node]){
-            if(!vis[i]){
-                if(!dfs(graph, vis, path, i, res)) return false;
-                else res.push_back(i);
-            }else if(vis[i] && path[i] == 1){
-                // cycle detected
-                return false;
-            }
-        }
-        path[node] = 0;
-        return true;
-    }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int n = graph.size();
-        vector<bool> vis(n, false);
-        vector<int> path(n, 0), res;
+        vector<vector<int>> adj(n);
+        for(int i =0; i<n; i++){
+            for(auto j: graph[i]){
+                adj[j].push_back(i);
+            }
+        }
+        vector<int> ind(n);
         for(int i=0; i<n; i++){
-            if(!vis[i]){
-                if(dfs(graph, vis, path, i, res)) res.push_back(i);
+            for(auto j : adj[i]) ind[j]++;
+        }
+        vector<int> res;
+        queue<int>q;
+        for(int i=0; i<n; i++){
+            if(ind[i] == 0) q.push(i);
+        }
+        while(!q.empty()){
+            int curr = q.front();
+            q.pop();
+            res.push_back(curr);
+            for(auto i : adj[curr]){
+                ind[i]--;
+                if( ind[i] == 0) q.push(i);
             }
         }
         sort(res.begin(), res.end());
-        return res;        
+        return res;
     }
 };
