@@ -1,22 +1,22 @@
 class Solution {
 public:
-    bool isValid(vector<vector<bool>>& vis, int i, int j, int n, int m){
+    bool isValid(int i, int j, int n, int m){
         if(i<0 ||j<0 || i>=n || j>= m) return false;
-        if(vis[i][j]) return false;
+        // if(vis[i][j]) return false;
         return true;
     }
     int orangesRotting(vector<vector<int>>& grid) {
         int n = grid.size(), m = grid[0].size(), res = 0;
         int dx[] = {0, 0, -1, 1};
         int dy[] = {-1, 1, 0, 0};
-        vector<vector<bool>> vis(n, vector<bool> (m, false));
+        // vector<vector<bool>> vis(n, vector<bool> (m, false));
         queue<pair<pair<int, int>, int>> q;
 
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
                 if(grid[i][j] == 2){
                     q.push({{i, j}, 0});
-                    vis[i][j] = true;
+                    // vis[i][j] = true;
                 }
             }
         }
@@ -30,10 +30,10 @@ public:
                 int indx = i+dx[k];
                 int indy = j+dy[k];
 
-                if(isValid(vis, indx, indy, n, m) && grid[indx][indy] == 1){
+                if(isValid(indx, indy, n, m) && grid[indx][indy] == 1){
                     grid[indx][indy] = 2;
                     q.push({{indx, indy}, lvl+1});
-                    vis[indx][indy] = true;
+                    // vis[indx][indy] = true;
                 }
             }
 
