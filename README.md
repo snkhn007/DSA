@@ -149,6 +149,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/snkhn007/DSA/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0771-jewels-and-stones](https://github.com/snkhn007/DSA/tree/main/0771-jewels-and-stones/) | Easy |
+| [1189-maximum-number-of-balloons](https://github.com/snkhn007/DSA/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1408-string-matching-in-an-array](https://github.com/snkhn007/DSA/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/snkhn007/DSA/tree/main/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/snkhn007/DSA/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
@@ -183,6 +184,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0290-word-pattern](https://github.com/snkhn007/DSA/tree/main/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
 | [0771-jewels-and-stones](https://github.com/snkhn007/DSA/tree/main/0771-jewels-and-stones/) | Easy |
+| [1189-maximum-number-of-balloons](https://github.com/snkhn007/DSA/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
@@ -270,6 +272,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
+| [1189-maximum-number-of-balloons](https://github.com/snkhn007/DSA/tree/main/1189-maximum-number-of-balloons/) | Easy |
 ## Interactive
 | Problem Name | Difficulty |
 | ------- | ------- |
