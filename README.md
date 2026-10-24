@@ -103,6 +103,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1408-string-matching-in-an-array](https://github.com/snkhn007/DSA/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1732-find-the-highest-altitude](https://github.com/snkhn007/DSA/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
@@ -189,6 +190,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
 | [0771-jewels-and-stones](https://github.com/snkhn007/DSA/tree/main/0771-jewels-and-stones/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/snkhn007/DSA/tree/main/1189-maximum-number-of-balloons/) | Easy |
+| [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
@@ -257,6 +259,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/snkhn007/DSA/tree/main/0977-squares-of-a-sorted-array/) | Easy |
+| [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [2089-find-target-indices-after-sorting-array](https://github.com/snkhn007/DSA/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
