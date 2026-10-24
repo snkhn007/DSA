@@ -6,8 +6,9 @@ public:
         vector<int> temp = arr;
         sort(temp.begin(), temp.end());
 
-        set<int> st(temp.begin(), temp.end());
-        temp.assign(st.begin(), st.end());
+        // set<int> st(temp.begin(), temp.end());
+        // temp.assign(st.begin(), st.end());
+        temp.erase(unique(temp.begin(), temp.end()), temp.end());
 
         map<int, int> mp;
         for(int i=0; i<temp.size(); i++)  mp[temp[i]] = i + 1;
