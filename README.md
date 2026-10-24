@@ -112,6 +112,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [2185-counting-words-with-a-given-prefix](https://github.com/snkhn007/DSA/tree/main/2185-counting-words-with-a-given-prefix/) | Easy |
 | [2210-count-hills-and-valleys-in-an-array](https://github.com/snkhn007/DSA/tree/main/2210-count-hills-and-valleys-in-an-array/) | Easy |
 | [2239-find-closest-number-to-zero](https://github.com/snkhn007/DSA/tree/main/2239-find-closest-number-to-zero/) | Easy |
+| [2574-left-and-right-sum-differences](https://github.com/snkhn007/DSA/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2778-sum-of-squares-of-special-elements](https://github.com/snkhn007/DSA/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2951-find-the-peaks](https://github.com/snkhn007/DSA/tree/main/2951-find-the-peaks/) | Easy |
@@ -354,4 +355,5 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1732-find-the-highest-altitude](https://github.com/snkhn007/DSA/tree/main/1732-find-the-highest-altitude/) | Easy |
+| [2574-left-and-right-sum-differences](https://github.com/snkhn007/DSA/tree/main/2574-left-and-right-sum-differences/) | Easy |
 <!---LeetCode Topics End-->
