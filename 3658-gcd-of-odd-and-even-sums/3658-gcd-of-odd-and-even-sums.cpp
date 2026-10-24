@@ -8,24 +8,8 @@ public:
         }
         return 1;
     }
-    int gcdOfOddEvenSums(int n) {
-        int cnt = 0, sumEven = 0, sumOdd = 0, i =0;
-        while(cnt < n){
-            if(i%2 ==0){
-                cnt++;
-                sumEven += i;
-            }
-            i++;
-        }
-        cnt = 0, i = 0;
-        while(cnt < n){
-            if(i%2 !=0){
-                cnt++;
-                sumOdd += i;
-            }
-            i++;
-        }
-        return Gcd(sumEven, sumOdd);
+    int gcdOfOddEvenSums(int n) {        
+        return Gcd(n*(n+1), n*n);
         
     }
 };
