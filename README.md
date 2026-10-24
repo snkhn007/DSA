@@ -124,6 +124,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0070-climbing-stairs](https://github.com/snkhn007/DSA/tree/main/0070-climbing-stairs/) | Easy |
 | [0367-valid-perfect-square](https://github.com/snkhn007/DSA/tree/main/0367-valid-perfect-square/) | Easy |
 | [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
+| [2409-count-days-spent-together](https://github.com/snkhn007/DSA/tree/main/2409-count-days-spent-together/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/snkhn007/DSA/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/snkhn007/DSA/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Two Pointers
@@ -149,6 +150,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/snkhn007/DSA/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [2185-counting-words-with-a-given-prefix](https://github.com/snkhn007/DSA/tree/main/2185-counting-words-with-a-given-prefix/) | Easy |
+| [2409-count-days-spent-together](https://github.com/snkhn007/DSA/tree/main/2409-count-days-spent-together/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/snkhn007/DSA/tree/main/3498-reverse-degree-of-a-string/) | Easy |
 ## String Matching
 | Problem Name | Difficulty |
