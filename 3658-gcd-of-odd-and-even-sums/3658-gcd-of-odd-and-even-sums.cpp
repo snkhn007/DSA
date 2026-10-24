@@ -9,7 +9,8 @@ public:
         return 1;
     }
     int gcdOfOddEvenSums(int n) {        
-        return Gcd(n*(n+1), n*n);
+        // return Gcd(n*(n+1), n*n);
+        return n;
         
     }
 };
