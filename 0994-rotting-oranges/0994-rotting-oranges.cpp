@@ -1,51 +1,49 @@
 class Solution {
 public:
+    bool isValid(vector<vector<bool>>& vis, int i, int j, int n, int m){
+        if(i<0 ||j<0 || i>=n || j>= m) return false;
+        if(vis[i][j]) return false;
+        return true;
+    }
     int orangesRotting(vector<vector<int>>& grid) {
-        int n = grid.size();
-        int m = grid[0].size();
+        int n = grid.size(), m = grid[0].size(), res = 0;
+        int dx[] = {0, 0, -1, 1};
+        int dy[] = {-1, 1, 0, 0};
+        vector<vector<bool>> vis(n, vector<bool> (m, false));
         queue<pair<pair<int, int>, int>> q;
-        vector<vector<bool>> vis(n, vector<bool>(m, false));
+
         for(int i=0; i<n; i++){
-            for(int j = 0; j<m; j++){
-                if(grid[i][j] == 2) {
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == 2){
                     q.push({{i, j}, 0});
                     vis[i][j] = true;
                 }
             }
         }
-        int cnt = 0;
-        while(!q.empty()){
-            int els = q.size(); // elements to process before cnt++;
-            for(int k =0; k<els; k++){
-                auto curr = q.front();
-                q.pop();
-                int i = curr.first.first;
-                int j = curr.first.second;
-                cnt = curr.second;
 
-                if(i+1 < n && !vis[i+1][j] && grid[i+1][j]==1){
-                    q.push({{i+1, j}, cnt+1});
-                    vis[i+1][j] = true;
-                }
-                if(i-1>=0 && !vis[i-1][j] && grid[i-1][j]==1){
-                    q.push({{i-1, j}, cnt+1});
-                    vis[i-1][j] = true;
-                }
-                if(j+1 < m && !vis[i][j+1] && grid[i][j+1]==1){
-                    q.push({{i, j+1}, cnt+1});
-                    vis[i][j+1] = true;
-                }
-                if(j-1>=0 && !vis[i][j-1] && grid[i][j-1]==1){
-                    q.push({{i, j-1}, cnt+1});
-                    vis[i][j-1] = true;
+        while(!q.empty()){
+            auto[i, j] = q.front().first;
+            int lvl = q.front().second;
+            res = max(res, lvl);
+            q.pop();
+            for(int k=0; k<4; k++){
+                int indx = i+dx[k];
+                int indy = j+dy[k];
+
+                if(isValid(vis, indx, indy, n, m) && grid[indx][indy] == 1){
+                    grid[indx][indy] = 2;
+                    q.push({{indx, indy}, lvl+1});
+                    vis[indx][indy] = true;
                 }
             }
+
         }
+
         for(int i=0; i<n; i++){
-            for(int j = 0; j<m; j++){
-                if(grid[i][j] == 1 && vis[i][j] == false) return -1;
+            for(int j=0; j<m; j++){
+                if(grid[i][j] == 1) return -1;
             }
         }
-        return cnt;
+        return res;
     }
 };
