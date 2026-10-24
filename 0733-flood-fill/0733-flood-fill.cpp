@@ -1,38 +1,35 @@
 class Solution {
 public:
+    bool isValid(int i, int j, vector<vector<int>>& image, vector<vector<bool>>& vis, int n, int m){
+        if( i< 0 || j<0 || i >= n|| j>= m) return false;
+        if(vis[i][j]) return false;
+        // if(image[i][j] != color) return false;
+        return true;
+    }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        queue<pair<int, int>> q;
         int n = image.size(), m = image[0].size();
-        vector<vector<bool>> vis(n, vector<bool>(m, false));
+        int dx[]= {0, 0, 1, -1};
+        int dy[]={1, -1, 0, 0};
 
+        vector<vector<bool>> vis(n, vector<bool>(m, false));
+        queue<pair<int, int>> q;
         q.push({sr, sc});
         vis[sr][sc] = true;
 
         while(!q.empty()){
-            int i = q.front().first;
-            int j = q.front().second;
+            auto [i, j] = q.front();
             q.pop();
-            int currColor = image[i][j];
+            int curr = image[i][j];
             image[i][j] = color;
-            // Down
-            if(i+1 < n && image[i+1][j] == currColor && !vis[i+1][j]){
-                q.push({i+1, j});
-                vis[i+1][j] = true;
-            }
-            // Up
-            if(i-1 >= 0 && image[i-1][j] == currColor && !vis[i-1][j]){
-                q.push({i-1, j});
-                vis[i-1][j] = true;
-            }
-            // Right
-            if(j+1 < m && image[i][j+1] == currColor && !vis[i][j+1]){
-                q.push({i, j+1});
-                vis[i][j+1] = true;
-            }
-            // Left
-            if(j-1 >= 0 && image[i][j-1] == currColor && !vis[i][j-1]){
-                q.push({i, j-1});
-                vis[i][j-1] = true;
+
+            for(int k=0; k<4; k++){
+                int indx = i + dx[k];
+                int indy = j + dy[k];
+
+                if(isValid(indx, indy, image, vis, n, m) && image[indx][indy] == curr){
+                    vis[indx][indy] = true;
+                    q.push({indx, indy});
+                }
             }
         }
         return image;
