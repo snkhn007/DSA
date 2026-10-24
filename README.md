@@ -106,6 +106,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1408-string-matching-in-an-array](https://github.com/snkhn007/DSA/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1732-find-the-highest-altitude](https://github.com/snkhn007/DSA/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/snkhn007/DSA/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/snkhn007/DSA/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/snkhn007/DSA/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
@@ -156,6 +157,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/snkhn007/DSA/tree/main/1455-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/snkhn007/DSA/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/snkhn007/DSA/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [2185-counting-words-with-a-given-prefix](https://github.com/snkhn007/DSA/tree/main/2185-counting-words-with-a-given-prefix/) | Easy |
 | [2409-count-days-spent-together](https://github.com/snkhn007/DSA/tree/main/2409-count-days-spent-together/) | Easy |
 | [3498-reverse-degree-of-a-string](https://github.com/snkhn007/DSA/tree/main/3498-reverse-degree-of-a-string/) | Easy |
