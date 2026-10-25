@@ -38,6 +38,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
+| [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/snkhn007/DSA/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Binary Search Tree
@@ -81,6 +82,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
+| [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Array
 | Problem Name | Difficulty |
@@ -111,6 +113,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1979-find-greatest-common-divisor-of-array](https://github.com/snkhn007/DSA/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/snkhn007/DSA/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
+| [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2185-counting-words-with-a-given-prefix](https://github.com/snkhn007/DSA/tree/main/2185-counting-words-with-a-given-prefix/) | Easy |
 | [2210-count-hills-and-valleys-in-an-array](https://github.com/snkhn007/DSA/tree/main/2210-count-hills-and-valleys-in-an-array/) | Easy |
 | [2239-find-closest-number-to-zero](https://github.com/snkhn007/DSA/tree/main/2239-find-closest-number-to-zero/) | Easy |
@@ -130,6 +133,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0367-valid-perfect-square](https://github.com/snkhn007/DSA/tree/main/0367-valid-perfect-square/) | Easy |
 | [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/snkhn007/DSA/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
+| [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2409-count-days-spent-together](https://github.com/snkhn007/DSA/tree/main/2409-count-days-spent-together/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/snkhn007/DSA/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/snkhn007/DSA/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
@@ -222,6 +226,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/snkhn007/DSA/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [1791-find-center-of-star-graph](https://github.com/snkhn007/DSA/tree/main/1791-find-center-of-star-graph/) | Easy |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
+| [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -254,6 +259,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
+| [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
