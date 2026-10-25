@@ -89,6 +89,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/snkhn007/DSA/tree/main/0014-longest-common-prefix/) | Easy |
 | [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
+| [0066-plus-one](https://github.com/snkhn007/DSA/tree/main/0066-plus-one/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/snkhn007/DSA/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/snkhn007/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
@@ -129,6 +130,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0066-plus-one](https://github.com/snkhn007/DSA/tree/main/0066-plus-one/) | Easy |
 | [0070-climbing-stairs](https://github.com/snkhn007/DSA/tree/main/0070-climbing-stairs/) | Easy |
 | [0367-valid-perfect-square](https://github.com/snkhn007/DSA/tree/main/0367-valid-perfect-square/) | Easy |
 | [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
