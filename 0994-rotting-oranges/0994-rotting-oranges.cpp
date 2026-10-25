@@ -10,33 +10,43 @@ public:
         int dx[] = {0, 0, -1, 1};
         int dy[] = {-1, 1, 0, 0};
         // vector<vector<bool>> vis(n, vector<bool> (m, false));
-        queue<pair<pair<int, int>, int>> q;
+        // queue<pair<pair<int, int>, int>> q;
+        queue<pair<int, int>> q;
 
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
                 if(grid[i][j] == 2){
-                    q.push({{i, j}, 0});
+                    // q.push({{i, j}, 0});
+                    q.push({i, j});
                     // vis[i][j] = true;
                 }
             }
         }
 
         while(!q.empty()){
-            auto[i, j] = q.front().first;
-            int lvl = q.front().second;
-            res = max(res, lvl);
-            q.pop();
-            for(int k=0; k<4; k++){
-                int indx = i+dx[k];
-                int indy = j+dy[k];
+            // auto[i, j] = q.front().first;
+            // int lvl = q.front().second;
+            // res = max(res, lvl);
 
-                if(isValid(indx, indy, n, m) && grid[indx][indy] == 1){
-                    grid[indx][indy] = 2;
-                    q.push({{indx, indy}, lvl+1});
-                    // vis[indx][indy] = true;
+            int size = q.size();
+            while(size>0){
+                auto[i, j] = q.front();
+                q.pop();
+
+                for(int k=0; k<4; k++){
+                    int indx = i+dx[k];
+                    int indy = j+dy[k];
+
+                    if(isValid(indx, indy, n, m) && grid[indx][indy] == 1){
+                        grid[indx][indy] = 2;
+                        // q.push({{indx, indy}, lvl+1});
+                        q.push({indx, indy});
+                        // vis[indx][indy] = true;
+                    }
                 }
+                size--;
             }
-
+            if(!q.empty()) res++;
         }
 
         for(int i=0; i<n; i++){
