@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
+        if (mat.empty() || mat[0].empty()) return {};
         int n = mat.size(), m = mat[0].size();
         int dx[] = {1, -1, 0, 0}, dy[] = {0, 0, 1, -1};
         vector<vector<int>> res(n , vector<int> (m, -1));
