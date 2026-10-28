@@ -80,6 +80,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1042-flower-planting-with-no-adjacent](https://github.com/snkhn007/DSA/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1765-map-of-highest-peak](https://github.com/snkhn007/DSA/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
@@ -109,6 +110,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1408-string-matching-in-an-array](https://github.com/snkhn007/DSA/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1732-find-the-highest-altitude](https://github.com/snkhn007/DSA/tree/main/1732-find-the-highest-altitude/) | Easy |
+| [1765-map-of-highest-peak](https://github.com/snkhn007/DSA/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/snkhn007/DSA/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/snkhn007/DSA/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
@@ -254,6 +256,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
+| [1765-map-of-highest-peak](https://github.com/snkhn007/DSA/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
