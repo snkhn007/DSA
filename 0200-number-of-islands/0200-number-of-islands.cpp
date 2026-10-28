@@ -11,6 +11,7 @@ public:
         dfs(grid, i, j-1, vis, n, m);    
     }
     int numIslands(vector<vector<char>>& grid) {
+        if (grid.empty() || grid[0].empty()) return 0;
         int n = grid.size(), m = grid[0].size();
         vector<vector<bool>> vis(n, vector<bool>(m , false));
         int res = 0;
