@@ -30,7 +30,8 @@ public:
                 int indx = i+dx[k];
                 int indy = j+dy[k];
 
-                if(isValid(indx, indy, n, m, vis) && mat[indx][indy] == 1){
+                // if(isValid(indx, indy, n, m, vis) && mat[indx][indy] == 1){
+                if(isValid(indx, indy, n, m, vis) ){
                     q.push({{indx, indy}, dist+1});
                     res[indx][indy] = dist+1;
                     vis[indx][indy] = true;
