@@ -1,18 +1,17 @@
 class Solution {
 public:
-    bool isValid(int i, int j, vector<vector<int>>& image, vector<vector<bool>>& vis, int n, int m){
-        if( i< 0 || j<0 || i >= n|| j>= m) return false;
-        if(vis[i][j]) return false;
-        // if(image[i][j] != color) return false;
+    bool isValid(vector<vector<bool>>& vis, int i, int j, int n, int m ){
+        if( i<0 ||j<0 || i>=n || j>=m) return false;
+        if(vis[i][j] == true) return false;
         return true;
     }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
         int n = image.size(), m = image[0].size();
-        int dx[]= {0, 0, 1, -1};
-        int dy[]={1, -1, 0, 0};
-
         vector<vector<bool>> vis(n, vector<bool>(m, false));
-        queue<pair<int, int>> q;
+        int dx[] = {1, -1, 0, 0};
+        int dy[] = {0, 0, 1, -1};
+
+        queue<pair<int, int>>q;
         q.push({sr, sc});
         vis[sr][sc] = true;
 
@@ -23,15 +22,14 @@ public:
             image[i][j] = color;
 
             for(int k=0; k<4; k++){
-                int indx = i + dx[k];
-                int indy = j + dy[k];
-
-                if(isValid(indx, indy, image, vis, n, m) && image[indx][indy] == curr){
-                    vis[indx][indy] = true;
+                int indx = i+dx[k];
+                int indy = j+dy[k];
+                if(isValid(vis, indx, indy, n, m) && curr == image[indx][indy]){
+                    vis[indx][indy]  = true;
                     q.push({indx, indy});
                 }
             }
-        }
-        return image;
+        }    
+        return image;    
     }
 };
