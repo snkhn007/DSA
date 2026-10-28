@@ -1,26 +1,23 @@
 class Solution {
 public:
-    void dfs(vector<vector<int>>& grid, int i, int j, vector<vector<bool>>& vis, int &res){
-        if(i<0 || i >= grid.size() || j<0 || j >= grid[0].size()) return;
-        if(vis[i][j] || grid[i][j] != 1) return;
-        vis[i][j] = true;
-        res++;
-        dfs(grid, i+1, j, vis, res);
-        dfs(grid, i-1, j, vis, res);
-        dfs(grid, i, j+1, vis, res);
-        dfs(grid, i, j-1, vis, res);
+    int dfs(int i, int j, vector<vector<int>>& grid, int n, int m){
+        if(i<0 || j<0 || i>=n || j>= m) return 0;
+        if(grid[i][j] == 0) return 0;
+        grid[i][j] = 0;
 
+        return 1 +
+        dfs(i+1, j , grid, n, m) +
+        dfs(i-1, j , grid, n, m) +
+        dfs(i, j+1 , grid, n, m) +
+        dfs(i, j-1 , grid, n, m);
     }
     int maxAreaOfIsland(vector<vector<int>>& grid) {
-        // does not ask you to eliminate islands touching the boundary**
         int n = grid.size(), m = grid[0].size(), res = 0;
-        vector<vector<bool>> vis(n, vector<bool>(m, false));
-
         for(int i=0; i<n; i++){
-            for(int j =0; j<m; j++){
-                int temp = 0;
-                if(!vis[i][j] && grid[i][j] == 1) dfs(grid, i, j, vis, temp);
-                res = max(temp, res);
+            for(int j = 0; j<m; j++){
+                if(grid[i][j] == 1){
+                    res = max(res, dfs(i, j, grid, n, m));
+                }
             }
         }
         return res;
