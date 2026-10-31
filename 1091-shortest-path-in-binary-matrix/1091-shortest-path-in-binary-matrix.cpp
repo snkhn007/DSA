@@ -12,25 +12,28 @@ public:
         int dx[] = {1, -1, 0, 0, 1, -1, 1, -1};
         int dy[] = {0, 0, 1, -1, 1, -1, -1, 1};
 
-        queue <pair<pair<int, int>, int>> q;
-        q.push({{0, 0}, 1});
-        // q.push({{0, 0}, 0});
+        queue <pair<int, int>> q;
+        q.push({0, 0});
+        int lvl = 1;
+        grid[0][0] = 1;
 
         while(!q.empty()){
-            int i = q.front().first.first;
-            int j = q.front().first.second;
-            int dist = q.front().second;
+            int size = q.size();
+            while(size > 0){
+                auto [i, j] = q.front();
+                if( i == n-1 && j == m-1) return lvl;
+                q.pop();
 
-            if( i == n-1 && j == m-1) return dist;
-            q.pop();
-
-            for(int k=0; k<8; k++){
-                int indx = i+dx[k], indy= j+dy[k];
-                if(isValid(indx, indy, n, m, grid)){
-                    q.push({{indx, indy}, dist+1});
-                    grid[indx][indy] = 1;
+                for(int k=0; k<8; k++){
+                    int indx = i+dx[k], indy= j+dy[k];
+                    if(isValid(indx, indy, n, m, grid)){
+                        q.push({indx, indy});
+                        grid[indx][indy] = 1;
+                    }
                 }
+                size--;
             }
+            lvl++;
         }
 
         return -1;
