@@ -31,6 +31,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/snkhn007/DSA/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0841-keys-and-rooms](https://github.com/snkhn007/DSA/tree/main/0841-keys-and-rooms/) | Medium |
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
 | [0938-range-sum-of-bst](https://github.com/snkhn007/DSA/tree/main/0938-range-sum-of-bst/) | Easy |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
@@ -76,6 +77,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/snkhn007/DSA/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0841-keys-and-rooms](https://github.com/snkhn007/DSA/tree/main/0841-keys-and-rooms/) | Medium |
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
@@ -233,6 +235,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0785-is-graph-bipartite](https://github.com/snkhn007/DSA/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/snkhn007/DSA/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0841-keys-and-rooms](https://github.com/snkhn007/DSA/tree/main/0841-keys-and-rooms/) | Medium |
 | [0886-possible-bipartition](https://github.com/snkhn007/DSA/tree/main/0886-possible-bipartition/) | Medium |
 | [1042-flower-planting-with-no-adjacent](https://github.com/snkhn007/DSA/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/snkhn007/DSA/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
