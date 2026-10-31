@@ -2,7 +2,8 @@ class Solution {
 public:
     void dfs(vector<vector<int>>& grid, int i, int j, int n, int m){
         if(i<0 || j<0 || i>=n || j>=m) return;
-        if(grid[i][j] != 0) return;
+        // if(grid[i][j] != 0) return;
+        if(grid[i][j] == 1) return;
 
         grid[i][j] = 1;
         dfs(grid, i+1, j, n, m);
