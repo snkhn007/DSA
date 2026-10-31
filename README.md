@@ -79,6 +79,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1042-flower-planting-with-no-adjacent](https://github.com/snkhn007/DSA/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
+| [1162-as-far-from-land-as-possible](https://github.com/snkhn007/DSA/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1765-map-of-highest-peak](https://github.com/snkhn007/DSA/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
@@ -106,6 +107,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0977-squares-of-a-sorted-array](https://github.com/snkhn007/DSA/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
+| [1162-as-far-from-land-as-possible](https://github.com/snkhn007/DSA/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1408-string-matching-in-an-array](https://github.com/snkhn007/DSA/tree/main/1408-string-matching-in-an-array/) | Easy |
@@ -255,6 +257,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0733-flood-fill](https://github.com/snkhn007/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
+| [1162-as-far-from-land-as-possible](https://github.com/snkhn007/DSA/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1765-map-of-highest-peak](https://github.com/snkhn007/DSA/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
@@ -286,6 +289,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/snkhn007/DSA/tree/main/0070-climbing-stairs/) | Easy |
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
+| [1162-as-far-from-land-as-possible](https://github.com/snkhn007/DSA/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
