@@ -1,27 +1,15 @@
 class Solution {
 public:
-    int search(vector<string>& nums, string target) {
-        auto it = lower_bound(nums.begin(), nums.end(), target);
-        if(it != nums.end() && *it == target) {
-            return it - nums.begin();
-        }
-        return -1;
-    }
+
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         int n = wordList.size(), lvl = 1;
-        sort(wordList.begin(), wordList.end());
-        if(search(wordList, endWord) == -1) return 0;
 
-        vector<bool> vis(n+1, false);
-        
-        int beginIndex = search(wordList, beginWord);
-        if(beginIndex != -1) {
-            vis[beginIndex + 1] = true;
-        }
-
+        set<string> st(wordList.begin(), wordList.end());
         queue<string> q;
+
+        if(st.find(endWord) == st.end()) return 0; // not in vector
+        st.erase(beginWord); //removing beginword so that this brach is not explored
         q.push(beginWord);
-        vis[0] = true;
 
         while(!q.empty()){
             int sz = q.size();
@@ -35,12 +23,10 @@ public:
                     for(char j= 'a'; j<='z'; j++){
                         temp[i] = j;
                         if(temp == endWord) return lvl+1;
-
-                        int index = search(wordList, temp);
-                        if(index == -1) continue;
-                        if(!vis[index+1]){
+                        if(st.find(temp) == st.end()) continue; //not found in set
+                        else{
                             q.push(temp);
-                            vis[index+1] = true;
+                            st.erase(temp);
                         }
                     }
                 }
