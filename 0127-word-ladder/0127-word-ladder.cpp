@@ -4,7 +4,7 @@ public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         int n = wordList.size(), lvl = 1;
 
-        set<string> st(wordList.begin(), wordList.end());
+        unordered_set<string> st(wordList.begin(), wordList.end());
         queue<string> q;
 
         if(st.find(endWord) == st.end()) return 0; // not in vector
