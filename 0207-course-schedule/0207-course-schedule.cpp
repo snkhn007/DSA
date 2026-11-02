@@ -1,35 +1,32 @@
 class Solution {
 public:
+    bool dfs(int node, vector<bool>& vis, vector<int>& path, vector<vector<int>>& adj){
+        vis[node] = true;
+        path[node] = 1;
+
+        for(auto i: adj[node]){
+            if(!vis[i]){
+                if(dfs(i, vis, path, adj)) return true; //cycle exists
+            }
+            else if(path[i] == 1) return true; //cycle exists
+        }
+
+        path[node] = -1;
+        return false;
+    }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
-        vector<int> ind(numCourses);
         for(auto i: prerequisites){
-            adj[i[0]].push_back(i[1]);
-            // adj[i[1]].push_back(i[0]);
-            ind[i[1]]++;
+            adj[i[0]].push_back(i[1]); //bi first if you want to take course ai ie bi is dependent of ai
         }
+        vector<bool> vis(numCourses, false);
+        vector<int>path(numCourses, -1);
 
-        // for(int i=0; i<numCourses; i++){
-        //     for(auto x: adj[i]){
-        //         ind[x]++;
-        //     }
-        // }
-
-        queue<int>q;
-        for(int i = 0; i<numCourses; i++){
-            if(ind[i] == 0) q.push(i);
-        }
-        int cnt = 0;
-        while(!q.empty()){
-            int curr = q.front();
-            q.pop();
-            cnt++;
-            for(auto i : adj[curr]){
-                ind[i]--;
-                if(ind[i] == 0) q.push(i);
+        for(int i=0; i<numCourses; i++){
+            if(!vis[i]){
+                if(dfs(i, vis, path, adj)) return false;
             }
         }
-
-        return cnt == numCourses;
+        return true; // no cycle 
     }
 };
