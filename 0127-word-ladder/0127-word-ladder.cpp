@@ -17,8 +17,9 @@ public:
                 string curr = q.front();
                 q.pop();
 
+                string temp = curr;
                 for(int i=0; i<curr.size(); i++){
-                    string temp = curr;
+                    char og = temp[i];
 
                     for(char j= 'a'; j<='z'; j++){
                         temp[i] = j;
@@ -29,6 +30,8 @@ public:
                             st.erase(temp);
                         }
                     }
+
+                    temp[i] = og;
                 }
                 sz--;
             }
