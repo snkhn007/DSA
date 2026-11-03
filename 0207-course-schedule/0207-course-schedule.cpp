@@ -1,33 +1,30 @@
 class Solution {
 public:
-    bool dfs(int node, vector<bool>& vis, vector<int>& path, vector<vector<int>>& adj){
-        vis[node] = true;
-        path[node] = 1;
-
-        for(auto i: adj[node]){
-            if(!vis[i]){
-                if(dfs(i, vis, path, adj)) return true; //cycle exists
-            }
-            else if(path[i] == 1) return true; //cycle exists
-        }
-
-        path[node] = 0;
-        return false;
-    }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
+        vector<int> ind(numCourses, 0);
         for(auto i: prerequisites){
             // adj[i[0]].push_back(i[1]); //bi first if you want to take course ai ie bi is dependent of ai
             adj[i[1]].push_back(i[0]);
+            ind[i[0]]++;
         }
-        vector<bool> vis(numCourses, false);
-        vector<int>path(numCourses, 0);
+        // USING KAHN'S ALGO
+        queue<int>q;
+        for(int i=0; i<ind.size(); i++){
+            if(ind[i] == 0) q.push(i);
+        }
+        // if(q.empty()) return false; //cycle exists
+        int nodesProcessed = 0;
 
-        for(int i=0; i<numCourses; i++){
-            if(!vis[i]){
-                if(dfs(i, vis, path, adj)) return false;
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+            nodesProcessed++;
+            for(auto i: adj[node]){
+                ind[i]--;
+                if(ind[i] == 0) q.push(i);
             }
         }
-        return true; // no cycle 
+        return (nodesProcessed == numCourses);
     }
 };
