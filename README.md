@@ -69,6 +69,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/snkhn007/DSA/tree/main/0210-course-schedule-ii/) | Medium |
+| [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/snkhn007/DSA/tree/main/0547-number-of-provinces/) | Medium |
@@ -172,6 +173,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0127-word-ladder](https://github.com/snkhn007/DSA/tree/main/0127-word-ladder/) | Hard |
 | [0290-word-pattern](https://github.com/snkhn007/DSA/tree/main/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
+| [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/snkhn007/DSA/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0771-jewels-and-stones](https://github.com/snkhn007/DSA/tree/main/0771-jewels-and-stones/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/snkhn007/DSA/tree/main/1189-maximum-number-of-balloons/) | Easy |
@@ -210,6 +212,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0128-longest-consecutive-sequence](https://github.com/snkhn007/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0290-word-pattern](https://github.com/snkhn007/DSA/tree/main/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
+| [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0771-jewels-and-stones](https://github.com/snkhn007/DSA/tree/main/0771-jewels-and-stones/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/snkhn007/DSA/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
@@ -396,4 +399,5 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/snkhn007/DSA/tree/main/0127-word-ladder/) | Hard |
+| [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
 <!---LeetCode Topics End-->
