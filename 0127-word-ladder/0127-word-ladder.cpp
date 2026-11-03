@@ -1,43 +1,37 @@
 class Solution {
 public:
-
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        int n = wordList.size(), lvl = 1;
-
+        int lvl = 1;
         unordered_set<string> st(wordList.begin(), wordList.end());
         queue<string> q;
-
-        if(st.find(endWord) == st.end()) return 0; // not in vector
-        st.erase(beginWord); //removing beginword so that this brach is not explored
         q.push(beginWord);
+        if(st.find(beginWord) != st.end()){
+            // ie beginWord is in st -> erasing it
+            st.erase(beginWord);
+        }
 
         while(!q.empty()){
             int sz = q.size();
             while(sz>0){
-                string curr = q.front();
+                string currWord = q.front();
                 q.pop();
-
-                string temp = curr;
-                for(int i=0; i<curr.size(); i++){
-                    char og = temp[i];
-
-                    for(char j= 'a'; j<='z'; j++){
+                if(currWord == endWord) return lvl;
+                string temp = currWord;
+                for(int i=0; i<currWord.size(); i++){
+                    for(char j='a'; j<='z'; j++){
+                        int og = temp[i];
                         temp[i] = j;
-                        if(temp == endWord) return lvl+1;
-                        if(st.find(temp) == st.end()) continue; //not found in set
-                        else{
+                        if(st.find(temp) != st.end()){
                             q.push(temp);
                             st.erase(temp);
                         }
-                    }
-
-                    temp[i] = og;
+                        temp[i] = og;
+                    }                    
                 }
                 sz--;
             }
             lvl++;
         }
-
         return 0;
     }
 };
