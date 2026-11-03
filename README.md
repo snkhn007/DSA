@@ -137,6 +137,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/snkhn007/DSA/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/snkhn007/DSA/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/snkhn007/DSA/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Math
@@ -151,6 +152,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [2409-count-days-spent-together](https://github.com/snkhn007/DSA/tree/main/2409-count-days-spent-together/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/snkhn007/DSA/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/snkhn007/DSA/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
+| [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/snkhn007/DSA/tree/main/3736-minimum-moves-to-equal-array-elements-iii/) | Easy |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/snkhn007/DSA/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/snkhn007/DSA/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Two Pointers
