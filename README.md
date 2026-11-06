@@ -69,6 +69,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/snkhn007/DSA/tree/main/0210-course-schedule-ii/) | Medium |
+| [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
 | [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
@@ -107,6 +108,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0162-find-peak-element](https://github.com/snkhn007/DSA/tree/main/0162-find-peak-element/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/snkhn007/DSA/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
+| [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
 | [0419-battleships-in-a-board](https://github.com/snkhn007/DSA/tree/main/0419-battleships-in-a-board/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
@@ -273,6 +275,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0074-search-a-2d-matrix](https://github.com/snkhn007/DSA/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
+| [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
 | [0419-battleships-in-a-board](https://github.com/snkhn007/DSA/tree/main/0419-battleships-in-a-board/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
 | [0542-01-matrix](https://github.com/snkhn007/DSA/tree/main/0542-01-matrix/) | Medium |
@@ -420,4 +423,8 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
 <!---LeetCode Topics End-->
