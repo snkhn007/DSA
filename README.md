@@ -103,6 +103,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0074-search-a-2d-matrix](https://github.com/snkhn007/DSA/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/snkhn007/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
+| [0149-max-points-on-a-line](https://github.com/snkhn007/DSA/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0162-find-peak-element](https://github.com/snkhn007/DSA/tree/main/0162-find-peak-element/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/snkhn007/DSA/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
@@ -147,6 +148,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0066-plus-one](https://github.com/snkhn007/DSA/tree/main/0066-plus-one/) | Easy |
 | [0070-climbing-stairs](https://github.com/snkhn007/DSA/tree/main/0070-climbing-stairs/) | Easy |
+| [0149-max-points-on-a-line](https://github.com/snkhn007/DSA/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0367-valid-perfect-square](https://github.com/snkhn007/DSA/tree/main/0367-valid-perfect-square/) | Easy |
 | [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/snkhn007/DSA/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
@@ -212,6 +214,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0127-word-ladder](https://github.com/snkhn007/DSA/tree/main/0127-word-ladder/) | Hard |
 | [0128-longest-consecutive-sequence](https://github.com/snkhn007/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0149-max-points-on-a-line](https://github.com/snkhn007/DSA/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0290-word-pattern](https://github.com/snkhn007/DSA/tree/main/0290-word-pattern/) | Easy |
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
 | [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
@@ -288,6 +291,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0149-max-points-on-a-line](https://github.com/snkhn007/DSA/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
 | [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 ## Sorting
@@ -390,10 +394,12 @@ Each folder contains topic-wise problems implemented in C++.
 ## Euclidean Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0149-max-points-on-a-line](https://github.com/snkhn007/DSA/tree/main/0149-max-points-on-a-line/) | Hard |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/snkhn007/DSA/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 ## Greatest Common Divisor
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0149-max-points-on-a-line](https://github.com/snkhn007/DSA/tree/main/0149-max-points-on-a-line/) | Hard |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/snkhn007/DSA/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
