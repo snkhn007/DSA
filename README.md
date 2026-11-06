@@ -360,6 +360,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
+| [0052-n-queens-ii](https://github.com/snkhn007/DSA/tree/main/0052-n-queens-ii/) | Hard |
 | [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
@@ -408,6 +409,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
+| [0052-n-queens-ii](https://github.com/snkhn007/DSA/tree/main/0052-n-queens-ii/) | Hard |
 ## Dancing Links
 | Problem Name | Difficulty |
 | ------- | ------- |
