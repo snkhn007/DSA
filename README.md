@@ -97,6 +97,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/snkhn007/DSA/tree/main/0014-longest-common-prefix/) | Easy |
+| [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
 | [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0066-plus-one](https://github.com/snkhn007/DSA/tree/main/0066-plus-one/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/snkhn007/DSA/tree/main/0074-search-a-2d-matrix/) | Medium |
@@ -207,6 +208,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
 | [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0127-word-ladder](https://github.com/snkhn007/DSA/tree/main/0127-word-ladder/) | Hard |
 | [0128-longest-consecutive-sequence](https://github.com/snkhn007/DSA/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -264,6 +266,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
 | [0074-search-a-2d-matrix](https://github.com/snkhn007/DSA/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
@@ -356,6 +359,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
 | [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
@@ -400,4 +404,12 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/snkhn007/DSA/tree/main/0127-word-ladder/) | Hard |
 | [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
+## Algorithm X
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
+## Dancing Links
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
 <!---LeetCode Topics End-->
