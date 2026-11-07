@@ -363,6 +363,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/snkhn007/DSA/tree/main/0014-longest-common-prefix/) | Easy |
+| [0440-k-th-smallest-in-lexicographical-order](https://github.com/snkhn007/DSA/tree/main/0440-k-th-smallest-in-lexicographical-order/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
