@@ -50,6 +50,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0162-find-peak-element](https://github.com/snkhn007/DSA/tree/main/0162-find-peak-element/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/snkhn007/DSA/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0278-first-bad-version](https://github.com/snkhn007/DSA/tree/main/0278-first-bad-version/) | Easy |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/snkhn007/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [0367-valid-perfect-square](https://github.com/snkhn007/DSA/tree/main/0367-valid-perfect-square/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/snkhn007/DSA/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [0852-peak-index-in-a-mountain-array](https://github.com/snkhn007/DSA/tree/main/0852-peak-index-in-a-mountain-array/) | Medium |
@@ -108,6 +109,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0162-find-peak-element](https://github.com/snkhn007/DSA/tree/main/0162-find-peak-element/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/snkhn007/DSA/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/snkhn007/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
 | [0419-battleships-in-a-board](https://github.com/snkhn007/DSA/tree/main/0419-battleships-in-a-board/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
@@ -275,6 +277,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0074-search-a-2d-matrix](https://github.com/snkhn007/DSA/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0130-surrounded-regions](https://github.com/snkhn007/DSA/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/snkhn007/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
 | [0419-battleships-in-a-board](https://github.com/snkhn007/DSA/tree/main/0419-battleships-in-a-board/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
@@ -408,6 +411,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/snkhn007/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [1732-find-the-highest-altitude](https://github.com/snkhn007/DSA/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/snkhn007/DSA/tree/main/2574-left-and-right-sum-differences/) | Easy |
 ## Bidirectional Search
@@ -428,4 +432,8 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
+## Ordered Set
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/snkhn007/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 <!---LeetCode Topics End-->
