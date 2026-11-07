@@ -70,6 +70,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0200-number-of-islands](https://github.com/snkhn007/DSA/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/snkhn007/DSA/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/snkhn007/DSA/tree/main/0210-course-schedule-ii/) | Medium |
+| [0301-remove-invalid-parentheses](https://github.com/snkhn007/DSA/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
 | [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0463-island-perimeter](https://github.com/snkhn007/DSA/tree/main/0463-island-perimeter/) | Easy |
@@ -179,6 +180,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0058-length-of-last-word](https://github.com/snkhn007/DSA/tree/main/0058-length-of-last-word/) | Easy |
 | [0127-word-ladder](https://github.com/snkhn007/DSA/tree/main/0127-word-ladder/) | Hard |
 | [0290-word-pattern](https://github.com/snkhn007/DSA/tree/main/0290-word-pattern/) | Easy |
+| [0301-remove-invalid-parentheses](https://github.com/snkhn007/DSA/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
 | [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/snkhn007/DSA/tree/main/0657-robot-return-to-origin/) | Easy |
@@ -372,6 +374,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/snkhn007/DSA/tree/main/0037-sudoku-solver/) | Hard |
 | [0052-n-queens-ii](https://github.com/snkhn007/DSA/tree/main/0052-n-queens-ii/) | Hard |
+| [0301-remove-invalid-parentheses](https://github.com/snkhn007/DSA/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0797-all-paths-from-source-to-target](https://github.com/snkhn007/DSA/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
