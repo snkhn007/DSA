@@ -142,6 +142,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [2778-sum-of-squares-of-special-elements](https://github.com/snkhn007/DSA/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2951-find-the-peaks](https://github.com/snkhn007/DSA/tree/main/2951-find-the-peaks/) | Easy |
+| [3364-minimum-positive-sum-subarray](https://github.com/snkhn007/DSA/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/snkhn007/DSA/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
@@ -417,6 +418,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/snkhn007/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [1732-find-the-highest-altitude](https://github.com/snkhn007/DSA/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/snkhn007/DSA/tree/main/2574-left-and-right-sum-differences/) | Easy |
+| [3364-minimum-positive-sum-subarray](https://github.com/snkhn007/DSA/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 ## Bidirectional Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -439,4 +441,8 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/snkhn007/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3364-minimum-positive-sum-subarray](https://github.com/snkhn007/DSA/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 <!---LeetCode Topics End-->
