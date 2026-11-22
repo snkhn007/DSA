@@ -95,6 +95,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/snkhn007/DSA/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Array
 | Problem Name | Difficulty |
@@ -142,6 +143,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [2778-sum-of-squares-of-special-elements](https://github.com/snkhn007/DSA/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/snkhn007/DSA/tree/main/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy |
 | [2951-find-the-peaks](https://github.com/snkhn007/DSA/tree/main/2951-find-the-peaks/) | Easy |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3364-minimum-positive-sum-subarray](https://github.com/snkhn007/DSA/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/snkhn007/DSA/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/snkhn007/DSA/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
@@ -263,6 +265,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1791-find-center-of-star-graph](https://github.com/snkhn007/DSA/tree/main/1791-find-center-of-star-graph/) | Easy |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -296,6 +299,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1765-map-of-highest-peak](https://github.com/snkhn007/DSA/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/snkhn007/DSA/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Geometry
@@ -439,6 +443,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Ordered Set
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -453,4 +458,8 @@ Each folder contains topic-wise problems implemented in C++.
 | [0584-find-customer-referee](https://github.com/snkhn007/DSA/tree/main/0584-find-customer-referee/) | Easy |
 | [0595-big-countries](https://github.com/snkhn007/DSA/tree/main/0595-big-countries/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/snkhn007/DSA/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 <!---LeetCode Topics End-->
