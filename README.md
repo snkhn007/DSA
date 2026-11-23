@@ -126,6 +126,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1162-as-far-from-land-as-possible](https://github.com/snkhn007/DSA/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
+| [1352-product-of-the-last-k-numbers](https://github.com/snkhn007/DSA/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
 | [1408-string-matching-in-an-array](https://github.com/snkhn007/DSA/tree/main/1408-string-matching-in-an-array/) | Easy |
 | [1732-find-the-highest-altitude](https://github.com/snkhn007/DSA/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1765-map-of-highest-peak](https://github.com/snkhn007/DSA/tree/main/1765-map-of-highest-peak/) | Medium |
@@ -159,6 +160,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0149-max-points-on-a-line](https://github.com/snkhn007/DSA/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0367-valid-perfect-square](https://github.com/snkhn007/DSA/tree/main/0367-valid-perfect-square/) | Easy |
 | [0836-rectangle-overlap](https://github.com/snkhn007/DSA/tree/main/0836-rectangle-overlap/) | Easy |
+| [1352-product-of-the-last-k-numbers](https://github.com/snkhn007/DSA/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/snkhn007/DSA/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2409-count-days-spent-together](https://github.com/snkhn007/DSA/tree/main/2409-count-days-spent-together/) | Easy |
@@ -422,6 +424,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/snkhn007/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
+| [1352-product-of-the-last-k-numbers](https://github.com/snkhn007/DSA/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/snkhn007/DSA/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [2574-left-and-right-sum-differences](https://github.com/snkhn007/DSA/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [3364-minimum-positive-sum-subarray](https://github.com/snkhn007/DSA/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
@@ -462,4 +465,12 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/snkhn007/DSA/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/snkhn007/DSA/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
 <!---LeetCode Topics End-->
