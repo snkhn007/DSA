@@ -15,20 +15,11 @@ public:
         for(int i =1; i<=maxel; i++){
             freq[i] = freq[i]+freq[i-1];
         }
-        for(int i=maxel; i>0; i--){
-            freq[i] = freq[i-1];
+        for(int i=n-1; i>= 0 ; i--){
+            res[freq[heights[i]] -1] = heights[i];
+            freq[heights[i]] --;
         }
-        freq[0] = 0;
 
-        for(int i=0; i<=maxel; i++){
-            res[freq[i]] = i;
-        }
-        for(int i =0; i<n; i++){
-            if(res[i] == -5) res[i] = res[i-1];
-        }
-        // for(int i=0; i<n; i++){
-        //     cout<<res[i]<<" ";
-        // }
         int cnt = 0;
         for(int i =0; i<n; i++){
             if(res[i] != heights[i]) cnt++;
