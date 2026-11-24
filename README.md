@@ -128,6 +128,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
 | [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
 | [1091-shortest-path-in-binary-matrix](https://github.com/snkhn007/DSA/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1122-relative-sort-array](https://github.com/snkhn007/DSA/tree/main/1122-relative-sort-array/) | Easy |
 | [1162-as-far-from-land-as-possible](https://github.com/snkhn007/DSA/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
@@ -239,6 +240,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0383-ransom-note](https://github.com/snkhn007/DSA/tree/main/0383-ransom-note/) | Easy |
 | [0433-minimum-genetic-mutation](https://github.com/snkhn007/DSA/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0771-jewels-and-stones](https://github.com/snkhn007/DSA/tree/main/0771-jewels-and-stones/) | Easy |
+| [1122-relative-sort-array](https://github.com/snkhn007/DSA/tree/main/1122-relative-sort-array/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/snkhn007/DSA/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
@@ -328,6 +330,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/snkhn007/DSA/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
+| [1122-relative-sort-array](https://github.com/snkhn007/DSA/tree/main/1122-relative-sort-array/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [2089-find-target-indices-after-sorting-array](https://github.com/snkhn007/DSA/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 ## Simulation
@@ -502,8 +505,14 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
+| [1122-relative-sort-array](https://github.com/snkhn007/DSA/tree/main/1122-relative-sort-array/) | Easy |
 ## Bubble Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
+| [1122-relative-sort-array](https://github.com/snkhn007/DSA/tree/main/1122-relative-sort-array/) | Easy |
+## Quicksort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1122-relative-sort-array](https://github.com/snkhn007/DSA/tree/main/1122-relative-sort-array/) | Easy |
 <!---LeetCode Topics End-->
