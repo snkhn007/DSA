@@ -138,6 +138,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1732-find-the-highest-altitude](https://github.com/snkhn007/DSA/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1765-map-of-highest-peak](https://github.com/snkhn007/DSA/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/snkhn007/DSA/tree/main/1807-evaluate-the-bracket-pairs-of-a-string/) | Medium |
+| [1833-maximum-ice-cream-bars](https://github.com/snkhn007/DSA/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/snkhn007/DSA/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/snkhn007/DSA/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
@@ -332,6 +333,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
 | [1122-relative-sort-array](https://github.com/snkhn007/DSA/tree/main/1122-relative-sort-array/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
+| [1833-maximum-ice-cream-bars](https://github.com/snkhn007/DSA/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/snkhn007/DSA/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
@@ -506,6 +508,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
 | [1122-relative-sort-array](https://github.com/snkhn007/DSA/tree/main/1122-relative-sort-array/) | Easy |
+| [1833-maximum-ice-cream-bars](https://github.com/snkhn007/DSA/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 ## Bubble Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -515,4 +518,8 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1122-relative-sort-array](https://github.com/snkhn007/DSA/tree/main/1122-relative-sort-array/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1833-maximum-ice-cream-bars](https://github.com/snkhn007/DSA/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 <!---LeetCode Topics End-->
