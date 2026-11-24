@@ -94,6 +94,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
 | [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/snkhn007/DSA/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/snkhn007/DSA/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
@@ -139,6 +140,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [2185-counting-words-with-a-given-prefix](https://github.com/snkhn007/DSA/tree/main/2185-counting-words-with-a-given-prefix/) | Easy |
 | [2210-count-hills-and-valleys-in-an-array](https://github.com/snkhn007/DSA/tree/main/2210-count-hills-and-valleys-in-an-array/) | Easy |
 | [2239-find-closest-number-to-zero](https://github.com/snkhn007/DSA/tree/main/2239-find-closest-number-to-zero/) | Easy |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/snkhn007/DSA/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2574-left-and-right-sum-differences](https://github.com/snkhn007/DSA/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/snkhn007/DSA/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
 | [2778-sum-of-squares-of-special-elements](https://github.com/snkhn007/DSA/tree/main/2778-sum-of-squares-of-special-elements/) | Easy |
@@ -268,6 +270,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1791-find-center-of-star-graph](https://github.com/snkhn007/DSA/tree/main/1791-find-center-of-star-graph/) | Easy |
 | [1971-find-if-path-exists-in-graph](https://github.com/snkhn007/DSA/tree/main/1971-find-if-path-exists-in-graph/) | Easy |
 | [2101-detonate-the-maximum-bombs](https://github.com/snkhn007/DSA/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/snkhn007/DSA/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3898-find-the-degree-of-each-vertex](https://github.com/snkhn007/DSA/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Recursion
@@ -301,6 +304,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1765-map-of-highest-peak](https://github.com/snkhn007/DSA/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1992-find-all-groups-of-farmland](https://github.com/snkhn007/DSA/tree/main/1992-find-all-groups-of-farmland/) | Medium |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/snkhn007/DSA/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/snkhn007/DSA/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/snkhn007/DSA/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
@@ -447,6 +451,7 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/snkhn007/DSA/tree/main/0407-trapping-rain-water-ii/) | Hard |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/snkhn007/DSA/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Ordered Set
 | Problem Name | Difficulty |
@@ -465,6 +470,7 @@ Each folder contains topic-wise problems implemented in C++.
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/snkhn007/DSA/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/snkhn007/DSA/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -474,4 +480,12 @@ Each folder contains topic-wise problems implemented in C++.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1352-product-of-the-last-k-numbers](https://github.com/snkhn007/DSA/tree/main/1352-product-of-the-last-k-numbers/) | Medium |
+## 0-1 BFS
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/snkhn007/DSA/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
+## Dijkstra's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/snkhn007/DSA/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 <!---LeetCode Topics End-->
