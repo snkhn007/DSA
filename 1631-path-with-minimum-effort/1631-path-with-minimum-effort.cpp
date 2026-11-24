@@ -26,6 +26,9 @@ public:
             int j = curr.second.second;
             int d = curr.first;
 
+            if(d > dist[i][j]) continue;
+            if(i == n-1 && j == m-1) return d; // Dijkstra guarantees that the minimum effort has been finalized when the destination is popped
+
             for(int k=0; k<4; k++){
                 int indx = i+dx[k], indy = j+dy[k];
                 if(isValid(indx, indy, n, m)){
