@@ -126,6 +126,7 @@ Each folder contains topic-wise problems implemented in C++.
 | [0977-squares-of-a-sorted-array](https://github.com/snkhn007/DSA/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [0994-rotting-oranges](https://github.com/snkhn007/DSA/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/snkhn007/DSA/tree/main/1020-number-of-enclaves/) | Medium |
+| [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
 | [1091-shortest-path-in-binary-matrix](https://github.com/snkhn007/DSA/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1162-as-far-from-land-as-possible](https://github.com/snkhn007/DSA/tree/main/1162-as-far-from-land-as-possible/) | Medium |
 | [1254-number-of-closed-islands](https://github.com/snkhn007/DSA/tree/main/1254-number-of-closed-islands/) | Medium |
@@ -326,6 +327,7 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/snkhn007/DSA/tree/main/0049-group-anagrams/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/snkhn007/DSA/tree/main/0977-squares-of-a-sorted-array/) | Easy |
+| [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/snkhn007/DSA/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [2089-find-target-indices-after-sorting-array](https://github.com/snkhn007/DSA/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 ## Simulation
@@ -496,4 +498,12 @@ Each folder contains topic-wise problems implemented in C++.
 | ------- | ------- |
 | [1631-path-with-minimum-effort](https://github.com/snkhn007/DSA/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/snkhn007/DSA/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
+## Bubble Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1051-height-checker](https://github.com/snkhn007/DSA/tree/main/1051-height-checker/) | Easy |
 <!---LeetCode Topics End-->
